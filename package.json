@@ -1,0 +1,33 @@
+{
+  "name": "rc-simple-store",
+  "version": "0.0.5",
+  "description": "a simple store for react component",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kavience/react-simple-store"
+  },
+  "keywords": [
+    "react",
+    "store"
+  ],
+  "author": "kavience",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "shallowequal": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/plugin-proposal-function-bind": "^7.7.4"
+  }
+}
